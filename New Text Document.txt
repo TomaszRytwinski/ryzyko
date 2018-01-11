@@ -1,0 +1,1 @@
+"Swalbard", "Islandia", "Skandynawia", "Wielka Brytania", "Polnocna Europa", "Ukraina","Poludniowa Europa", "Zachodnia Europa", "Indonezja", "Filipiny", "Nowa Gwinea", "Australia Zachodnia", "Australia Wschodnia", "Nowa Zelandia"
