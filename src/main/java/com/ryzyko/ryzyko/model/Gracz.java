@@ -1,6 +1,7 @@
 package com.ryzyko.ryzyko.model;
 
 public class Gracz {
+	
 	private int id;
 	private String nick;
 	private int kolor;
@@ -12,6 +13,8 @@ public class Gracz {
 	private int ileStraconych;
 	private int ileDodanych;
 	private int ileAtakow;
+	private int ileDoDodania;
+	
 	public int getId() {
 		return id;
 	}
@@ -77,6 +80,12 @@ public class Gracz {
 	}
 	public void setIleAtakow(int ileAtakow) {
 		this.ileAtakow = ileAtakow;
+	}
+	public int getIleDoDodania() {
+		return ileDoDodania;
+	}
+	public void setIleDoDodania(int ileDoDodania) {
+		this.ileDoDodania = ileDoDodania;
 	}
 	
 	
