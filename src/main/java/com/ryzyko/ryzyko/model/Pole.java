@@ -5,7 +5,7 @@ import java.util.List;
 public class Pole {
 	private String nazwa;
 	private int iloscZawodnikow;
-	private int gracz;
+	private Integer gracz;
 	private String kontynent;
 	private int id;
 	private List<Pole> granice;
@@ -22,10 +22,10 @@ public class Pole {
 	public void setIloscZawodnikow(int iloscZawodnikow){
 		this.iloscZawodnikow = iloscZawodnikow;
 	}
-	public int getGracz(){
+	public Integer getGracz(){
 		return gracz;
 	}
-	public void setGracz(int gracz){
+	public void setGracz(Integer gracz){
 		this.gracz = gracz;
 	}
 	public String getKontynent(){
