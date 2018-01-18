@@ -2,7 +2,7 @@ package com.ryzyko.ryzyko.model;
 
 public class Nazwy {
 	//0-10
-	public static final String[] AMARYKAPLN= {"Alaska", "Pln-zach terytorium", "Ojk", 
+	public static final String[] AMERYKAPLN= {"Alaska", "Pln-zach terytorium", "Ojk", 
 			"Grenlandia", "Alberta", "Ontario", "Quebek", "Zachodnie Stany", 
 			"Wschodnie Stany", "Ameryka Centralna", "Hawaje" };
 	//11-15

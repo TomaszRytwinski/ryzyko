@@ -2,7 +2,7 @@ package com.ryzyko.ryzyko.model;
 
 public class Mapa {
 	
-	private Pole[] pola = new Pole[47];
+	public Pole[] pola = new Pole[48];
 	
 	private String AMERYKAPLN = "AMERYKAPLN";
 	private String AMERYKAPLD = "AMERYKAPLD";
@@ -17,49 +17,53 @@ public class Mapa {
 		
 	}
 	
-	private void ustawNazwyIKontynent(){
+	public Mapa(){
+	
+	}
+	
+	public void ustawNazwyIKontynent(){
 		int j=0;
-		for(int i=0;i<Nazwy.AMARYKAPLN.length;i++){
-			j=i;
+		for(int i=0;i<Nazwy.AMERYKAPLN.length;i++){
 			pola[j] = new Pole();
 			pola[j].setKontynent(AMERYKAPLN);
-			pola[j].setNazwa(Nazwy.AMARYKAPLN[i]);
+			pola[j].setNazwa(Nazwy.AMERYKAPLN[i]);
+			j++;
 			
 		}
 		
 		for(int i=0;i<Nazwy.AMERYKAPLD.length;i++){
-			j=i;
 			pola[j] = new Pole();
 			pola[j].setKontynent(AMERYKAPLD);
 			pola[j].setNazwa(Nazwy.AMERYKAPLD[i]);
+			j++;
 		}
 		
 		for(int i=0;i<Nazwy.AFRYKA.length;i++){
-			j=i;
 			pola[j] = new Pole();
 			pola[j].setKontynent(AFRYKA);
 			pola[j].setNazwa(Nazwy.AFRYKA[i]);
+			j++;
 		}
 		
 		for(int i=0;i<Nazwy.AZJA.length;i++){
-			j=i;
 			pola[j] = new Pole();
 			pola[j].setKontynent(AZJA);
 			pola[j].setNazwa(Nazwy.AZJA[i]);
+			j++;
 		}
 		
 		for(int i=0;i<Nazwy.EUROPA.length;i++){
-			j=i;
 			pola[j] = new Pole();
 			pola[j].setKontynent(EUROPA);
 			pola[j].setNazwa(Nazwy.EUROPA[i]);
+			j++;
 		}
 		
 		for(int i=0;i<Nazwy.AUSTRALIA.length;i++){
-			j=i;
 			pola[j] = new Pole();
 			pola[j].setKontynent(AUSTRALIA);
 			pola[j].setNazwa(Nazwy.AUSTRALIA[i]);
+			j++;
 		}
 	}
 
