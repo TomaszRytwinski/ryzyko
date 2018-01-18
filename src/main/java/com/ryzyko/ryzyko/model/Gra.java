@@ -5,8 +5,9 @@ public class Gra {
 	private Mapa mapa;
 	
 	public void nowaGra(){
-		mapa = new Mapa();
-		wybieraniePol();
+		UstawieniaGry ustawienia = new UstawieniaGry();
+		mapa = new Mapa(ustawienia);
+//		wybieraniePol();
 	}
 	
 	private void wybieraniePol(){
