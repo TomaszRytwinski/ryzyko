@@ -23,6 +23,7 @@ public class Gra {
 	}
 	
 	public void losowaniePol(){
+		UstawieniaGry dodatkowePola = new UstawieniaGry();
 		
 		Random generator = new Random();
 		int pustePola = iloscPol;
@@ -32,8 +33,26 @@ public class Gra {
 		
 		ArrayList<Integer> listaPol = new ArrayList<Integer>();
 		
-		for (int i = 0; i < iloscPol; i++)
+		for (int i = 0; i < 48; i++)
 			listaPol.add(i);
+		
+		if (dodatkowePola.isOjk() == false)
+			listaPol.remove(2);
+		
+		if (dodatkowePola.isHawaje() == false)
+			listaPol.remove(10);
+		
+		if (dodatkowePola.isFalklandy() == false)
+			listaPol.remove(15);
+		
+		if (dodatkowePola.isSvalbard() == false)
+			listaPol.remove(34);
+		
+		if (dodatkowePola.isFilipiny() == false)
+			listaPol.remove(43);
+		
+		if (dodatkowePola.isNowaZelandia() == false)
+			listaPol.remove(47);
 		
 		while (pustePola > 0){
 			wylosowanePole = generator.nextInt(listaPol.size());
