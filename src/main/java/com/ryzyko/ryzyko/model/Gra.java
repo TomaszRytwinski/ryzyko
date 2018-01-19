@@ -36,24 +36,36 @@ public class Gra {
 		for (int i = 0; i < 48; i++)
 			listaPol.add(i);
 		
-		if (dodatkowePola.isOjk() == false)
+		if (dodatkowePola.isOjk() == false){
 			listaPol.remove(2);
+			pustePola -= 1;
+		}
 		
-		if (dodatkowePola.isHawaje() == false)
+		if (dodatkowePola.isHawaje() == false){
 			listaPol.remove(10);
+			pustePola -= 1;
+		}
 		
-		if (dodatkowePola.isFalklandy() == false)
+		if (dodatkowePola.isFalklandy() == false){
 			listaPol.remove(15);
+			pustePola -= 1;
+		}
 		
-		if (dodatkowePola.isSvalbard() == false)
+		if (dodatkowePola.isSvalbard() == false){
 			listaPol.remove(34);
+			pustePola -= 1;
+		}
 		
-		if (dodatkowePola.isFilipiny() == false)
+		if (dodatkowePola.isFilipiny() == false){
 			listaPol.remove(43);
+			pustePola -= 1;
+		}
 		
-		if (dodatkowePola.isNowaZelandia() == false)
+		if (dodatkowePola.isNowaZelandia() == false){
 			listaPol.remove(47);
-		
+			pustePola -= 1;
+		}
+			
 		while (pustePola > 0){
 			wylosowanePole = generator.nextInt(listaPol.size());
 			przypisanePole = listaPol.get(wylosowanePole);
