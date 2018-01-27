@@ -1,0 +1,15 @@
+losowaniePrzedGra true
+klasyk true
+dominacja 60
+ojk true
+hawaje true
+falklandy true
+svalbard true
+filipiny true
+nowaZelandia true
+amerykaPln 6
+amerykaPld 4
+afryka 5
+azja 7
+europa 6
+australia 4

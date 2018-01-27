@@ -6,15 +6,22 @@ public class UstawieniaGry {
 	private boolean klasyk;
 	private int czasNaKolejke;
 	//lista polaczen
-	private int dominacja;
+	public int dominacja;
 	private int gracze = 6;
 	private int iloscPol = 48;
-	private boolean ojk = true;
-	private boolean hawaje = true;
-	private boolean falklandy = true;
-	private boolean svalbard = true;
-	private boolean filipiny = true;
-	private boolean nowaZelandia = true;
+	private boolean ojk;
+	private boolean hawaje;
+	private boolean falklandy;
+	private boolean svalbard;
+	private boolean filipiny;
+	private boolean nowaZelandia;
+	private int amerykaPln;
+	private int amerykaPld;
+	private int afryka;
+	private int azja;
+	private int europa;
+	private int australia;
+	
 	
 	public UstawieniaGry(){
 		
@@ -91,6 +98,78 @@ public class UstawieniaGry {
 
 	public void setNowaZelandia(boolean nowaZelandia) {
 		this.nowaZelandia = nowaZelandia;
+	}
+
+	public boolean isLosowaniePrzedGra() {
+		return losowaniePrzedGra;
+	}
+
+	public void setLosowaniePrzedGra(boolean losowaniePrzedGra) {
+		this.losowaniePrzedGra = losowaniePrzedGra;
+	}
+
+	public boolean isKlasyk() {
+		return klasyk;
+	}
+
+	public void setKlasyk(boolean klasyk) {
+		this.klasyk = klasyk;
+	}
+
+	public int getDominacja() {
+		return dominacja;
+	}
+
+	public void setDominacja(int dominacja) {
+		this.dominacja = dominacja;
+	}
+
+	public int getAmerykaPln() {
+		return amerykaPln;
+	}
+
+	public void setAmerykaPln(int amerykaPln) {
+		this.amerykaPln = amerykaPln;
+	}
+
+	public int getAmerykaPld() {
+		return amerykaPld;
+	}
+
+	public void setAmerykaPld(int amerykaPld) {
+		this.amerykaPld = amerykaPld;
+	}
+
+	public int getAfryka() {
+		return afryka;
+	}
+
+	public void setAfryka(int afryka) {
+		this.afryka = afryka;
+	}
+
+	public int getAzja() {
+		return azja;
+	}
+
+	public void setAzja(int azja) {
+		this.azja = azja;
+	}
+
+	public int getEuropa() {
+		return europa;
+	}
+
+	public void setEuropa(int europa) {
+		this.europa = europa;
+	}
+
+	public int getAustralia() {
+		return australia;
+	}
+
+	public void setAustralia(int australia) {
+		this.australia = australia;
 	}
 	
 }
