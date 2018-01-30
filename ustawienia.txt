@@ -1,0 +1,15 @@
+losowaniePrzedGra false
+klasyk false
+dominacja 0
+ojk false
+hawaje false
+falklandy false
+svalbard false
+filipiny false
+nowaZelandia false
+amerykaPln 0
+amerykaPld 0
+afryka 0
+azja 0
+europa 0
+australia 0

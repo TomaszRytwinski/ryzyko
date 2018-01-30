@@ -3,7 +3,7 @@ klasyk true
 dominacja 60
 ojk true
 hawaje true
-falklandy true
+falklandy false
 svalbard true
 filipiny true
 nowaZelandia true
